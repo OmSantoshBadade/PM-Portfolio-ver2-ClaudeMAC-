@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Om Badade — Product Manager</title>
+    <meta
+      name="description"
+      content="Om Badade — builder-minded product manager. BPCL, GDG, CIBILIZE and the systems in between."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="grid-bg"></div>
+
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark">OB</span>
+          <span>
+            <span class="brand-name">Om Badade</span><br />
+            <span class="brand-sub">product / systems</span>
+          </span>
+        </a>
+        <nav class="links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#case-study">Case Study</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+          ◐
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" style="border-top: none;">
+        <div class="wrap">
+          <div class="kicker reveal d1">PRODUCT MANAGEMENT · MUMBAI, INDIA</div>
+          <h1 class="reveal d2">I don't just plan the product. I build the first version to prove it should exist.</h1>
+          <p class="hero-lede reveal d3">
+            Om Badade — final-year Electronics &amp; Computer Engineering student who moved from writing backend code
+            to deciding what the code is for. He's shipped a safety-analytics tool inside a Fortune 500 energy company,
+            built a fintech app end to end, and led a nine-person technical team through a 1,200-attendee event.
+          </p>
+          <div class="hero-cta reveal d4">
+            <a class="btn btn-primary" href="#case-study">See the case study →</a>
+            <a class="btn btn-ghost" href="mailto:om.badade@gmail.com">Get in touch</a>
+          </div>
+
+          <div class="stat-strip reveal d4">
+            <div class="stat">
+              <div class="num">75%</div>
+              <div class="label">less manual effort on BPCL's incident reporting, after Om's tool shipped</div>
+            </div>
+            <div class="stat">
+              <div class="num">1,200+</div>
+              <div class="label">attendees reached across GDG's Flutter Roadshow &amp; Spectrum</div>
+            </div>
+            <div class="stat">
+              <div class="num">9</div>
+              <div class="label">engineers on the technical team Om led at GDG on Campus</div>
+            </div>
+            <div class="stat">
+              <div class="num">F500</div>
+              <div class="label">Bharat Petroleum — Digital Solutions &amp; Business Analyst Intern</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-tag">01 — ABOUT</span>
+            <h2>From "can I build this" to "should this exist"</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>
+                Om is finishing a B.E. in Electronics &amp; Computer Science at Vidyalankar Institute of Technology, Mumbai —
+                expected June 2026. His path into product didn't start with a business framework; it started with a keyboard.
+                He wrote the backend, wired up the database, shipped the feature — and only later started asking why the
+                feature needed to exist in the first place.
+              </p>
+              <p>
+                That instinct is the thread through everything he's done since: a summer at Bharat Petroleum where he replaced
+                a manual safety-reporting process with a working analytics tool; a fintech side project, CIBILIZE, built solo
+                from data pipeline to recommendation logic; two applied ML systems; and a platform he built for a nonprofit
+                that's still used by its students and partner organizations.
+              </p>
+              <p>
+                He also spent a year learning the other half of product — getting things done through people, not just code —
+                as Technical Lead for Google Developer Groups on Campus, where he ran a nine-person team and the logistics
+                behind a week-long, 1,200-attendee event.
+              </p>
+            </div>
+            <div class="fact-card">
+              <div class="fact-row"><span class="k">Based in</span><span class="v">Mumbai, IN</span></div>
+              <div class="fact-row"><span class="k">Studying</span><span class="v">B.E. ECE, VIT</span></div>
+              <div class="fact-row"><span class="k">Graduating</span><span class="v">Jun 2026</span></div>
+              <div class="fact-row"><span class="k">Recent role</span><span class="v">BA Intern, BPCL</span></div>
+              <div class="fact-row"><span class="k">Also builds in</span><span class="v">Python · React · SQL</span></div>
+              <div class="fact-row"><span class="k">Leads</span><span class="v">9-person team, GDG</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="case-study">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-tag">02 — FEATURED CASE STUDY</span>
+            <h2>CIBILIZE</h2>
+          </div>
+
+          <div class="spec-block">
+            <div class="case-hero">
+              <div>
+                <h3>Turning a bank statement into a credit decision</h3>
+                <div class="tag-row">
+                  <span class="tag">0 → 1</span>
+                  <span class="tag">Fintech</span>
+                  <span class="tag">Solo-built</span>
+                </div>
+              </div>
+            </div>
+            <p class="case-sub">
+              A full-stack financial assistant that reads a user's raw bank statement and turns it into a credit-card
+              recommendation, a spending breakdown, and a set of eligibility checks — instead of another generic
+              "best cards of 2025" listicle.
+            </p>
+
+            <div class="case-grid">
+              <div class="case-item">
+                <h4>PROBLEM</h4>
+                <p>
+                  Most first-time credit users pick a card off a generic ranking, not off their actual spending.
+                  The one input that would make a recommendation trustworthy — a real bank statement — is also the
+                  most tedious thing to read and categorize by hand.
+                </p>
+              </div>
+              <div class="case-item">
+                <h4>MY ROLE</h4>
+                <p>
+                  Sole builder and de facto PM. Scoped what a v1 needed to prove, designed the data flow from raw PDF
+                  to recommendation, and decided what shipped first: the parsing pipeline, not the interface — because
+                  without clean transaction data, there was no product.
+                </p>
+              </div>
+              <div class="case-item">
+                <h4>KEY DECISIONS</h4>
+                <ul>
+                  <li>Chose a rule-based recommendation engine over an ML model — a financial decision needed to be
+                    explainable, not just accurate.</li>
+                  <li>Prioritized the PDF statement parser ahead of UI polish, since it was the actual constraint on
+                    whether the product worked at all.</li>
+                  <li>Used the Gemini API for the parts that benefit from language understanding (statement extraction),
+                    and kept eligibility logic deterministic and auditable.</li>
+                </ul>
+              </div>
+              <div class="case-item">
+                <h4>WHAT HE BUILT</h4>
+                <ul>
+                  <li>Automated PDF expense parser — extracts, cleans, and categorizes transaction data.</li>
+                  <li>Rule-based card recommendation and ranking engine with eligibility checks.</li>
+                  <li>REST API backend with JWT auth on Node/Express + MySQL.</li>
+                  <li>Interactive spend dashboards built with Recharts.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="case-item" style="margin-top: 8px;">
+              <h4>IMPACT — TO ADD</h4>
+              <p>Resume doesn't include usage numbers for this project yet.</p>
+              <span class="fill-chip">✎ add: users tested / parsing accuracy / statements processed</span>
+            </div>
+
+            <div class="stack-row">
+              <span class="chip">React</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Gemini API</span>
+              <span class="chip">Recharts</span>
+              <span class="chip">JWT</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-tag">03 — OTHER BUILDS</span>
+            <h2>Shipped elsewhere</h2>
+          </div>
+          <div class="proj-grid">
+            <div class="proj-card">
+              <div class="proj-num">EXP. 01</div>
+              <h3>In-Transit Incident Analysis — BPCL</h3>
+              <p>
+                Region and state-wise safety data — incidents, injuries, fatalities — was being compiled by hand.
+                Om built a Streamlit + SQLite tool that pulled and visualized it automatically, cutting reporting
+                effort by 75% and feeding directly into two executive-facing reports.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">Python</span>
+                <span class="proj-tag">Streamlit</span>
+                <span class="proj-tag">SQLite</span>
+                <span class="proj-tag">Internal tool</span>
+              </div>
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-num">EXP. 02</div>
+              <h3>Internship Discovery Platform — Suvidha Foundation</h3>
+              <p>
+                Backend for a platform helping underprivileged students find and apply to internships. Built secure
+                auth, role-based access, and REST APIs supporting 100+ student profiles and 10+ partner organizations
+                through pilot.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">Flask</span>
+                <span class="proj-tag">MySQL</span>
+                <span class="proj-tag">REST APIs</span>
+              </div>
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-num">EXP. 03</div>
+              <h3>Brain Tumor Detection</h3>
+              <p>
+                Desktop app that highlights abnormalities in MRI scans using thresholding and morphological image
+                processing, wrapped in a Tkinter GUI simple enough for a non-technical user to run.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">Python</span>
+                <span class="proj-tag">OpenCV</span>
+                <span class="proj-tag">Tkinter</span>
+              </div>
+            </div>
+
+            <div class="proj-card">
+              <div class="proj-num">EXP. 04</div>
+              <h3>Heart Stroke Prediction</h3>
+              <p>
+                Ensemble ML system predicting stroke risk from patient health records. Used XGBoost and LightGBM with
+                SMOTE to correct for class imbalance and protect recall on the minority (at-risk) class.
+              </p>
+              <div class="proj-tags">
+                <span class="proj-tag">XGBoost</span>
+                <span class="proj-tag">LightGBM</span>
+                <span class="proj-tag">SMOTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-tag">04 — EXPERIENCE &amp; LEADERSHIP</span>
+            <h2>Where the hours went</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-date">JUN 2025 — AUG 2025</div>
+              <h3>Digital Solutions &amp; Business Analyst Intern</h3>
+              <div class="t-org">Bharat Petroleum Corporation Ltd · Fortune Global 500</div>
+              <ul>
+                <li>Designed the official BPCL Fact Sheet 2025, consolidating operational, financial, and safety metrics for executive and stakeholder reporting.</li>
+                <li>Co-authored the Incident Analysis Report Booklet 2025 — contributed close to half its analytical content.</li>
+                <li>Built the Python/Streamlit incident-analysis tool described above; collaborated directly with safety officers and department heads to validate the underlying data.</li>
+              </ul>
+            </div>
+
+            <div class="t-item">
+              <div class="t-date">MAR 2025 — MAY 2025</div>
+              <h3>Web Development Intern</h3>
+              <div class="t-org">Suvidha Foundation · Education &amp; women's empowerment nonprofit</div>
+              <ul>
+                <li>Built backend services in Flask and MySQL with secure authentication and role-based access.</li>
+                <li>Integrated REST APIs connecting frontend and backend across 100+ student profiles and 10+ organizations.</li>
+              </ul>
+            </div>
+
+            <div class="t-item">
+              <div class="t-date">OCT 2024 — SEPT 2025</div>
+              <h3>Technical Lead</h3>
+              <div class="t-org">Google Developer Groups on Campus, VIT</div>
+              <ul>
+                <li>Led and mentored a 9-member technical core team across roadmaps and end-to-end project execution.</li>
+                <li>Coordinated the Flutter Roadshow, reaching 1,200+ attendees through workshops and mentorship.</li>
+                <li>Planned and ran Spectrum, the group's flagship week-long event, and hosted a 100+ attendee GSoC guidance session with Google Developer Experts.</li>
+              </ul>
+            </div>
+
+            <div class="t-item">
+              <div class="t-date">AUG 2023 — 2024</div>
+              <h3>Events Core</h3>
+              <div class="t-org">Student Council, VIT</div>
+              <ul>
+                <li>Organized and managed high-footfall events, including War of DJ and the inter-band Musical Battle, for the institute's flagship fest, VERVE.</li>
+              </ul>
+            </div>
+
+            <div class="t-item">
+              <div class="t-date">JAN 2023 — FEB 2023</div>
+              <h3>Student Teacher</h3>
+              <div class="t-org">Seva Sahayog Foundation</div>
+              <ul>
+                <li>Mentored underprivileged children in mathematics and science.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-tag">05 — SKILLS</span>
+            <h2>The toolkit</h2>
+          </div>
+          <div class="skill-grid">
+            <div class="skill-col">
+              <h4>PRODUCT</h4>
+              <span class="chip">Product strategy</span>
+              <span class="chip">Roadmapping</span>
+              <span class="chip">Stakeholder management</span>
+              <span class="chip">Product lifecycle mgmt.</span>
+              <span class="chip">Prioritization</span>
+              <span class="chip">Business &amp; technical writing</span>
+            </div>
+            <div class="skill-col">
+              <h4>TECHNICAL</h4>
+              <span class="chip">Python</span>
+              <span class="chip">Java</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Flask</span>
+              <span class="chip">React</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">Machine Learning</span>
+            </div>
+            <div class="skill-col">
+              <h4>TOOLS &amp; ANALYTICS</h4>
+              <span class="chip">Power BI</span>
+              <span class="chip">Data visualization</span>
+              <span class="chip">Git / GitHub</span>
+              <span class="chip">Notion</span>
+              <span class="chip">ClickUp</span>
+              <span class="chip">MS Office</span>
+            </div>
+          </div>
+
+          <div class="cert-strip" style="margin-top: 44px;">
+            <div class="cert"><b>Product School</b>Product Strategy Micro-Certification (PSC)</div>
+            <div class="cert"><b>McKinsey &amp; Company</b>Forward Program — Management &amp; Problem Solving</div>
+            <div class="cert"><b>Oracle</b>OCI AI Foundation Certification</div>
+            <div class="cert"><b>Google Arcade</b>Level 3 — Generative AI: Prompt Engineering</div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div class="wrap">
+          <div class="footer-grid">
+            <h2>Let's talk about what you're building.</h2>
+            <div class="footer-links">
+              <a href="mailto:om.badade@gmail.com">om.badade@gmail.com</a>
+              <a href="tel:+919136049280">+91 91360 49280</a>
+              <a href="https://linkedin.com/in/ombadade234" target="_blank" rel="noopener">linkedin.com/in/ombadade234</a>
+              <a href="https://github.com/OmSantoshBadade" target="_blank" rel="noopener">github.com/OmSantoshBadade</a>
+            </div>
+          </div>
+          <div class="foot-note">
+            <span>Om Badade — Mumbai, India</span>
+            <span>Built by hand, not from a template.</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
